@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body class="bg-white text-black font-sans">
+    <header class="bg-[#262B49] py-6 px-6">
+      <div class="flex justify-between items-center">
+        <h1 class="text-3xl text-white font-bold">
+          Let's Get to Know HTML, CSS, GIT, and TAILWIND
+        </h1>
+        <div class="space-x-4">
+          <a href="html.html" class="px-5 py-2.5 bg-gray-500 text-white text-base rounded hover:bg-gray-600 transition">HTML</a>
+          <a href="CSS.html" class="px-5 py-2.5 bg-gray-500 text-white text-base rounded hover:bg-gray-600 transition">CSS</a>
+          <a href="git.html" class="px-5 py-2.5 bg-gray-500 text-white text-base rounded hover:bg-gray-600 transition">GIT</a>
+          <a href="tailwind.html" class="px-5 py-2.5 bg-gray-500 text-white text-base rounded hover:bg-gray-600 transition">TAILWIND</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="max-w-screen-lg mx-auto px-6 py-6">
+      <div class="flex items-start space-x-6">
+        <div class="w-1/4">
+          <div class="bg-[#F2BFA4] p-4 rounded-lg shadow-md">
+            <img src="html.png" alt="HTML Image" class="w-full h-auto rounded-md" />
+          </div>
+        </div>
+        <div class="w-3/4">
+          <h2 class="font-bold mb-4 text-black pl-5" style="font-size: 25px;">HyperText Markup Language (HTML)</h2>
+          <ul class="list-disc pl-5 text-black text-base leading-relaxed space-y-1">
+            <li>HyperText Markup Language, also known as HTML, is used to create and design the structure of web pages.</li>
+            <li>It defines the meaning and structure of a web page.</li>
+            <li>Can display text, images, links, videos, and form.</li>
+            <li>Every HTML document starts with a <code>&lt;!DOCTYPE html&gt;</code> declaration.</li>
+            <li>You can view and edit HTML code using a text editor like Visual Studio Code.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mt-10">
+        <h2 class="font-bold mb-4 text-black pl-5 text-center" style="font-size: 25px;">What is Basic Tags?</h2>
+        <p class="text-base leading-relaxed">
+          Basic HTML tags are the foundational elements used to structure and display content on a web page. They define everything from headings and paragraphs to links, images, and layout sections.
+        </p>
+      </div>
+
+      <h2 class="text-xl font-bold text-center mt-10 mb-4">Basic Tags - DOCUMENT STRUCTURE</h2>
+<div class="overflow-x-auto mb-10">
+  <table class="w-full table-fixed border border-gray-1000">
+    <tr class="bg-gray-500">
+      <th class="w-1/2 py-2 px-4 border text-white">Tag</th>
+      <th class="w-1/2 py-2 px-4 border text-white">Description</th>
+    </tr>
+    <tr>
+      <td class="w-1/2 py-2 px-4 border">&lt;!DOCTYPE html&gt;</td>
+      <td class="w-1/2 py-2 px-4 border">Defines the HTML version</td>
+    </tr>
+    <tr class="bg-gray-100">
+      <td class="w-1/2 py-2 px-4 border">&lt;head&gt;</td>
+      <td class="w-1/2 py-2 px-4 border">Contains meta info</td>
+    </tr>
+    <tr>
+      <td class="w-1/2 py-2 px-4 border">&lt;html&gt;</td>
+      <td class="w-1/2 py-2 px-4 border">Root element of the page</td>
+    </tr>
+    <tr class="bg-gray-100">
+      <td class="w-1/2 py-2 px-4 border">&lt;body&gt;</td>
+      <td class="w-1/2 py-2 px-4 border">Main content area</td>
+    </tr>
+  </table>
+</div> 
+
+<h2 class="text-xl font-bold text-center mb-4">Basic Tags - TABLE</h2>
+<div class="overflow-x-auto mb-10">
+  <table class="w-full table-fixed border border-gray-1000">
+    <tr class="bg-gray-500">
+      <th class="w-1/2 py-2 px-4 border text-white">Tag</th>
+      <th class="w-1/2 py-2 px-4 border text-white">Description</th>
+    </tr>
+    <tr>
+      <td class="w-1/2 py-2 px-4 border">&lt;table&gt;</td>
+      <td class="w-1/2 py-2 px-4 border">Used to create a table in a webpage</td>
+    </tr>
+    <tr class="bg-gray-100">
+      <td class="w-1/2 py-2 px-4 border">&lt;tr&gt;</td>
+      <td class="w-1/2 py-2 px-4 border">It defines a single row in a table</td>
+    </tr>
+    <tr>
+      <td class="w-1/2 py-2 px-4 border">&lt;th&gt;</td>
+      <td class="w-1/2 py-2 px-4 border">It defines a header cell (like a column title)</td>
+    </tr>
+    <tr class="bg-gray-100">
+      <td class="w-1/2 py-2 px-4 border">&lt;td&gt;</td>
+      <td class="w-1/2 py-2 px-4 border">Table data cell</td>
+    </tr> 
+  </table> 
+  </div> 
+  
+
+<h2 class="text-xl font-bold text-center mb-4">Basic Tags - LAYOUT</h2>
+<div class="overflow-x-auto mb-10">
+  <table class="w-full table-fixed border border-gray-1000">
+    <tr class="bg-gray-500">
+      <th class="w-1/2 py-2 px-4 border text-white">Tag</th>
+      <th class="w-1/2 py-2 px-4 border text-white">Description</th>
+    </tr>
+    <tr>
+      <td class="w-1/2 py-2 px-4 border">&lt;div&gt;</td>
+      <td class="w-1/2 py-2 px-4 border">Defines a division or section</td>
+    </tr>
+    <tr class="bg-gray-100">
+      <td class="w-1/2 py-2 px-4 border">&lt;span&gt;</td>
+      <td class="w-1/2 py-2 px-4 border">Inline container</td>
+    </tr>
+  </table>
+</div>
+
+<h2 class="text-xl font-bold text-center mb-4">Basic Tags - TEXT AND CONTENT</h2>
+<div class="overflow-x-auto mb-10">
+  <table class="w-full table-fixed border border-gray-1000">
+    <tr class="bg-gray-500">
+      <th class="w-1/2 py-2 px-4 border text-white">Tag</th>
+      <th class="w-1/2 py-2 px-4 border text-white">Description</th>
+    </tr>
+    <tr>
+      <td class="w-1/2 py-2 px-4 border">&lt;img src="" alt=""&gt;</td>
+      <td class="w-1/2 py-2 px-4 border">&lt;img> stands for image, and it’s used to display pictures on a webpage</td>
+    </tr>
+    <tr class="bg-gray-100">
+      <td class="w-1/2 py-2 px-4 border">&lt;p&gt;</td>
+      <td class="w-1/2 py-2 px-4 border">Used for paragraphs</td>
+    </tr>
+    <tr>
+      <td class="w-1/2 py-2 px-4 border">&lt;br&gt;</td>
+      <td class="w-1/2 py-2 px-4 border">Line break</td>
+    </tr>
+    <tr class="bg-gray-100">
+      <td class="w-1/2 py-2 px-4 border">&lt;strong&gt;</td>
+      <td class="w-1/2 py-2 px-4 border">Bold text</td>
+    </tr>
+    <tr>
+      <td class="w-1/2 py-2 px-4 border">&lt;em&gt;</td>
+      <td class="w-1/2 py-2 px-4 border">Italic text</td>
+    </tr>
+    <tr class="bg-gray-100">
+      <td class="w-1/2 py-2 px-4 border">&lt;hr&gt;</td>
+      <td class="w-1/2 py-2 px-4 border">Horizontal line</td>
+    </tr>
+  </table>
+  <br>
+  <p>Example:</p>
+  <p>&lt;p&gt;&lt;em&gt;This is an italic text.&lt;/em&gt;&lt;strong&gt; This is a bold text.&lt;/strong&gt;&lt;/p&gt;</p>
+  <p>Output: <em>This is an italic text.</em><strong> This is a bold text.</strong></p>
+</div>
+
+<h2 class="text-xl font-bold text-center mb-4">Basic Tags - LISTS</h2>
+<div class="overflow-x-auto mb-10">
+  <table class="w-full table-fixed border border-gray-1000">
+    <tr class="bg-gray-500">
+      <th class="w-1/2 py-2 px-4 border text-white">Tag</th>
+      <th class="w-1/2 py-2 px-4 border text-white">Description</th>
+    </tr>
+    <tr>
+      <td class="w-1/2 py-2 px-4 border">&lt;ul&gt;</td>
+      <td class="w-1/2 py-2 px-4 border">Unordered list (bullet points)</td>
+    </tr>
+    <tr class="bg-gray-100">
+      <td class="w-1/2 py-2 px-4 border">&lt;ol&gt;</td>
+      <td class="w-1/2 py-2 px-4 border">Ordered list (numbered)</td>
+    </tr>
+    <tr>
+      <td class="w-1/2 py-2 px-4 border">&lt;li&gt;</td>
+      <td class="w-1/2 py-2 px-4 border">List item</td>
+    </tr>
+  </table>
+  <br>
+  <p>Example:</p>
+  <p>This is an unordered list:</p>
+  <ul class="list-disc pl-5">
+    <li>First item</li>
+    <li>Second item</li>
+    <li>Third item</li>
+  </ul>
+</div> 
+
+<h2 class="text-xl font-bold text-center mb-4">Basic Tags - FORMS</h2>
+<div class="overflow-x-auto mb-10">
+  <table class="w-full table-fixed border border-gray-1000">
+    <tr class="bg-gray-500">
+      <th class="w-1/2 py-2 px-4 border text-white">Tag</th>
+      <th class="w-1/2 py-2 px-4 border text-white">Description</th>
+    </tr>
+    <tr>
+      <td class="w-1/2 py-2 px-4 border">&lt;form&gt;</td>
+      <td class="w-1/2 py-2 px-4 border">Used to create an HTML form for user input</td>
+    </tr>
+    <tr class="bg-gray-100">
+      <td class="w-1/2 py-2 px-4 border">&lt;input&gt;</td>
+      <td class="w-1/2 py-2 px-4 border">Used to create an input field</td>
+    </tr>
+    <tr>
+      <td class="w-1/2 py-2 px-4 border">&lt;text area&gt;</td>
+      <td class="w-1/2 py-2 px-4 border">Used to create a multi-line text input</td>
+    </tr> 
+    <tr class="bg-gray-100">
+      <td class="w-1/2 py-2 px-4 border">&lt;button&gt;</td>
+      <td class="w-1/2 py-2 px-4 border">Used to create a clickable button</td>
+    </tr>
+    <tr>
+      <td class="w-1/2 py-2 px-4 border">&lt;label&gt;</td>
+      <td class="w-1/2 py-2 px-4 border">Used to create a label for an input element</td>
+    </tr>
+  </table>
+
+  <br>
+  <p>Example:</p>
+  <div class="border border-gray-400 p-3 rounded-md max-w-xs">
+    <form>
+      <label for="name" class="font-semibold text-sm">Name:</label>
+      <input type="text" id="name" name="name" class="border border-gray-400 w-full p-1 rounded text-sm mb-2">
+      <button type="submit" class="bg-blue-500 text-white text-sm px-3 py-1 rounded hover:bg-blue-600">Submit</button>
+    </form>
+  </div>
+</div>
+
+  <br>
+</div>
+
+<hr> 
+<br> 
+
+      </div>
+      <h2 class="text-xl font-bold text-center mb-4">How to Add a Different Page and a Button?</h2>
+      <p>Adding a new page and a button is simple. You just need to create a new HTML file for the page and add a button 
+        element in the desired location.</p> 
+      <br> 
+      <p style="text-align: justify;">
+  For example, to create a new page called "index.html", you would create a new file named "index.html" and 
+  add the necessary HTML structure. To add a button, you can use the <strong>&lt;button&gt;</strong> tag.
+</p>
+<br>
+    </main>
+
+     <footer class="bg-[#262B49] py-6 px-4 text-white">
+  <div class="max-w-md mx-auto flex flex-col items-center space-y-4 text-center font-yusei">
+    <div>
+      <h2 class="text-base font-semibold">Feedback and Ideas</h2>
+      <p class="text-xs text-gray-400">We appreciate you taking time to share your thoughts.</p>
+    </div>
+    <form class="w-full space-y-3 font-garamond">
+      <input type="text" placeholder="Name" class="w-full px-3 py-1.5 rounded bg-gray-800 text-white border border-gray-700" />
+      <input type="email" placeholder="Gmail" class="w-full px-3 py-1.5 rounded bg-gray-800 text-white border border-gray-700" />
+      <textarea rows="3" placeholder="Your suggestion..." class="w-full px-3 py-1.5 rounded bg-gray-800 text-white border border-gray-700"></textarea>
+      <button type="submit" class="bg-blue-600 hover:bg-blue-700 px-4 py-1.5 rounded text-white text-sm font-medium">Submit</button>
+    </form>
+    <p class="text-xs text-gray-400">© 2025 Learn HTML, CSS, GIT, and Tailwind.</p>
+  </div>
+</footer>
+  </body>
+</html>

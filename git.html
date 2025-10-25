@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body class="bg-white text-black font-sans">
+    <header class="bg-[#262B49] py-6 px-6">
+      <div class="flex justify-between items-center">
+        <h1 class="text-3xl text-white font-bold">
+          Let's Get to Know HTML, CSS, GIT, and Tailwind
+        </h1>
+        <div class="space-x-4">
+          <a href="index.html" class="px-5 py-2.5 bg-gray-500 text-white text-base rounded hover:bg-gray-600 transition">HTML</a>
+          <a href="CSS.html" class="px-5 py-2.5 bg-gray-500 text-white text-base rounded hover:bg-gray-600 transition">CSS</a>
+          <a href="git.html" class="px-5 py-2.5 bg-gray-500 text-white text-base rounded hover:bg-gray-600 transition">GIT</a>
+          <a href="tailwind.html" class="px-5 py-2.5 bg-gray-500 text-white text-base rounded hover:bg-gray-600 transition">TAILWIND</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="max-w-screen-lg mx-auto px-6 py-6">
+      <div class="flex items-start space-x-6 mb-6">
+        <div class="w-1/4">
+          <div class="bg-[#F2BFA4] p-4 rounded-lg shadow-md">
+            <img src="gitimg.jpg" alt="Git Image" class="w-full h-auto rounded-md" />
+          </div>
+        </div>
+        <div class="w-3/4">
+          <h2 class="font-bold mb-4 text-black pl-5" style="font-size: 25px;">Git</h2>
+          <ul class="list-disc pl-5 text-black text-base leading-relaxed space-y-1" style="font-size: 16px;">
+            <li>Git is used to manage and save files.</li>
+            <li>Git is capable of managing versions of source code or data.</li>
+            <li>It is used by programmers who are developing software collaboratively.</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="mt-6 text-base leading-relaxed">
+        Git commands are used to interact with Git, a distributed version control system. They allow users to manage code changes, track history, and collaborate on projects. Here are some of the most commonly used Git commands:
+      </p>
+
+      <div class="overflow-x-auto mt-6">
+        <table class="w-full border border-gray-1000">
+          <tr class="bg-gray-500">
+            <th class="py-2 px-4 border text-white">Command</th>
+            <th class="py-2 px-4 border text-white">Purpose</th>
+          </tr>
+          <tr>
+            <td class="py-2 px-4 border"><strong>git init</strong></td>
+            <td class="py-2 px-4 border">Initializes a new Git repository in the current directory.</td>
+          </tr>
+          <tr class="bg-gray-100">
+            <td class="py-2 px-4 border"><strong>git clone &lt;repository-url&gt;</strong></td>
+            <td class="py-2 px-4 border">Creates a local copy of an existing remote repository.</td>
+          </tr>
+          <tr>
+            <td class="py-2 px-4 border"><strong>git status</strong></td>
+            <td class="py-2 px-4 border">Shows the current state of the working directory and staging area.</td>
+          </tr>
+          <tr class="bg-gray-100">
+            <td class="py-2 px-4 border"><strong>git add &lt;file&gt;</strong></td>
+            <td class="py-2 px-4 border">Stages changes in a specific file for the next commit. <code>git add .</code> stages all changes.</td>
+          </tr>
+          <tr>
+            <td class="py-2 px-4 border"><strong>git log</strong></td>
+            <td class="py-2 px-4 border">Displays the commit history of the branch.</td>
+          </tr>
+        </table>
+      </div>
+
+      <h2 class="text-2xl font-bold text-center mt-10 mb-4">Step-by-Step Guide: How to Set Up Git</h2>
+
+      <div class="max-w-screen-md mx-auto">
+        <ul class="list-decimal pl-5 text-black text-base leading-relaxed space-y-2" style="font-size: 16px;">
+          <li><strong>Download Git:</strong> Visit <a href="https://git-scm.com" class="text-blue-600 underline">git-scm.com</a> and download the installer for your OS.</li>
+          <li><strong>Install Git:</strong> Run the installer and follow the default setup. Choose Git Bash as your terminal.</li>
+          <li><strong>Verify Installation:</strong> Open your terminal and run <code>git --version</code> to confirm Git is installed.</li>
+          <li><strong>Set Your Identity:</strong>
+            <br /><code>git config --global user.name "Your Name"</code>
+            <br /><code>git config --global user.email "you@example.com"</code>
+          </li>
+          <li><strong>Create a Repository:</strong> Navigate to your project folder and run <code>git init</code>.</li>
+          <li><strong>Make Your First Commit:</strong>
+            <br /><code>git add .</code>
+            <br /><code>git commit -m "Initial commit"</code>
+          </li>
+          <li><strong>Connect to Remote:</strong>
+            <br /><code>git remote add origin https://github.com/your-repo.git</code>
+            <br /><code>git push -u origin master</code>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <footer class="bg-[#262B49] py-6 px-4 text-white">
+  <div class="max-w-md mx-auto flex flex-col items-center space-y-4 text-center font-yusei">
+    <div>
+      <h2 class="text-base font-semibold">Feedback and Ideas</h2>
+      <p class="text-xs text-gray-400">We appreciate you taking time to share your thoughts.</p>
+    </div>
+    <form class="w-full space-y-3 font-garamond">
+      <input type="text" placeholder="Name" class="w-full px-3 py-1.5 rounded bg-gray-800 text-white border border-gray-700" />
+      <input type="email" placeholder="Gmail" class="w-full px-3 py-1.5 rounded bg-gray-800 text-white border border-gray-700" />
+      <textarea rows="3" placeholder="Your suggestion..." class="w-full px-3 py-1.5 rounded bg-gray-800 text-white border border-gray-700"></textarea>
+      <button type="submit" class="bg-blue-600 hover:bg-blue-700 px-4 py-1.5 rounded text-white text-sm font-medium">Submit</button>
+    </form>
+    <p class="text-xs text-gray-400">© 2025 Learn HTML, CSS, GIT, and Tailwind.</p>
+  </div>
+</footer>
+  </body>
+</html>

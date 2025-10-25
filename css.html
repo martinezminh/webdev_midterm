@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body class="bg-white text-black font-sans">
+    
+    <header class="bg-[#262B49] py-6 px-6">
+      <div class="flex justify-between items-center">
+        <h1 class="text-3xl text-white font-bold">
+          Let's Get to Know HTML, CSS, GIT, and Tailwind
+        </h1>
+        <div class="space-x-4">
+          <a href="index.html" class="px-5 py-2.5 bg-gray-500 text-white text-base rounded hover:bg-gray-600 transition">HTML</a>
+          <a href="CSS.html" class="px-5 py-2.5 bg-gray-500 text-white text-base rounded hover:bg-gray-600 transition">CSS</a>
+          <a href="git.html" class="px-5 py-2.5 bg-gray-500 text-white text-base rounded hover:bg-gray-600 transition">GIT</a>
+          <a href="tailwind.html" class="px-5 py-2.5 bg-gray-500 text-white text-base rounded hover:bg-gray-600 transition">TAILWIND</a>
+        </div>
+      </div>
+    </header>
+
+    
+    <main class="max-w-screen-lg mx-auto px-6 py-6">
+     
+      <div class="flex items-start space-x-6">
+        <div class="w-1/4">
+          
+          <div class="bg-[#6495ED] p-4 rounded-lg shadow-md">
+            <img src="cssimg2.jpg" alt="HTML Image" class="w-full h-auto rounded-md" />
+          </div>
+        </div>
+        <div class="w-3/4">
+          <h2 class="font-bold mb-4 text-black pl-5" style="font-size: 25px;">Cascading Style Sheets (CSS)</h2>
+          <ul class="list-disc pl-5 text-black text-base leading-relaxed space-y-1" style="font-size: 16px">
+            <li>It’s a stylesheet language used to describe the presentation of HTML documents.</li>
+            <li>The term “cascading” means that styles can override each other based on specificity and order.</li>
+            <li>CSS controls how elements look — including layout, colors, fonts, spacing, and animations.</li> 
+            <li>CSS can control the positioning of elements (using flexbox, grid, etc.).</li>
+            <li>CSS gives designers control over spacing, alignment, and positioning of elements.</li>
+            <li>Allows you to make web pages look attractive and organized.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="overflow-x-auto mt-10">
+        <h1 class="text-center font-bold mt-10 mb-2" style="font-size: 25px">Parts of a Syntax</h1>
+        <p class="text-base leading-relaxed mb-4">
+          In CSS, syntax refers to the structure and format of how styling rules are written. 
+          A CSS rule consists of a selector followed by a declaration block that contains one or more property-value pairs.
+        <table class="w-full border border-gray-1000">
+          <tr class="bg-gray-100">
+            <td class="py-2 px-4 border"><strong>Selector</strong></td>
+            <td class="py-2 px-4 border">Contains meta info</td>
+          </tr>
+          <tr>
+            <td class="py-2 px-4 border"><strong>Property</strong></td>
+            <td class="py-2 px-4 border">Sets the title in the browser tab</td>
+          </tr>
+          <tr class="bg-gray-100">
+            <td class="py-2 px-4 border"><strong>Value</strong></td>
+            <td class="py-2 px-4 border">Main content area</td>
+          </tr>
+          <tr>
+            <td class="py-2 px-4 border"><strong>Declaration</strong></td>
+            <td class="py-2 px-4 border">Paragraph</td>
+          </tr>
+          <tr class="bg-gray-100">
+            <td class="py-2 px-4 border"><strong>Declaration Block</strong></td>
+            <td class="py-2 px-4 border">Contains meta info</td>
+          </tr>
+        </table> 
+        <br> 
+      </div>
+    </main>
+
+   <footer class="bg-[#262B49] py-6 px-4 text-white">
+  <div class="max-w-md mx-auto flex flex-col items-center space-y-4 text-center font-yusei">
+    <div>
+      <h2 class="text-base font-semibold">Feedback and Ideas</h2>
+      <p class="text-xs text-gray-400">We appreciate you taking time to share your thoughts.</p>
+    </div>
+    <form class="w-full space-y-3 font-garamond">
+      <input type="text" placeholder="Name" class="w-full px-3 py-1.5 rounded bg-gray-800 text-white border border-gray-700" />
+      <input type="email" placeholder="Gmail" class="w-full px-3 py-1.5 rounded bg-gray-800 text-white border border-gray-700" />
+      <textarea rows="3" placeholder="Your suggestion..." class="w-full px-3 py-1.5 rounded bg-gray-800 text-white border border-gray-700"></textarea>
+      <button type="submit" class="bg-blue-600 hover:bg-blue-700 px-4 py-1.5 rounded text-white text-sm font-medium">Submit</button>
+    </form>
+    <p class="text-xs text-gray-400">© 2025 Learn HTML, CSS, GIT, and Tailwind.</p>
+  </div>
+</footer>
+  </body>
+</html>
